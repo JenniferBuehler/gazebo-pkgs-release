@@ -1,0 +1,12 @@
+Source: ros-indigo-gazebo-world-plugin-loader
+Section: misc
+Priority: extra
+Maintainer: Jennifer Buehler <jennifer.e.buehler@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), gazebo2, ros-indigo-catkin, ros-indigo-gazebo-ros, ros-indigo-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-gazebo-world-plugin-loader
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo2, ros-indigo-gazebo-ros, ros-indigo-roscpp
+Description: Offers a *system* plugin which can be used to load other *world* plugins after the world has been loaded, so it doesn't have to be specified in the Gazebo &quot;world&quot; file.
