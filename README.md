@@ -1,3 +1,30 @@
+## gazebo_tools (indigo) - 1.0.2-0
+
+The packages in the `gazebo_tools` repository were released into the `indigo` distro by running `/usr/bin/bloom-release gazebo_tools --track indigo --rosdistro indigo` on `Sat, 06 Jan 2018 13:45:37 -0000`
+
+These packages were released:
+- `gazebo_grasp_plugin`
+- `gazebo_state_plugins`
+- `gazebo_test_tools`
+- `gazebo_world_plugin_loader`
+
+Version of package(s) in repository `gazebo_tools`:
+
+- upstream repository: https://github.com/JenniferBuehler/gazebo-pkgs.git
+- release repository: https://github.com/JenniferBuehler/gazebo-pkgs-release.git
+- rosdistro version: `1.0.1-0`
+- old version: `1.0.1-0`
+- new version: `1.0.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.1`
+- catkin_pkg version: `0.3.9`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.3`
+- vcstools version: `0.1.39`
+
+
 ## gazebo_tools (indigo) - 1.0.1-0
 
 The packages in the `gazebo_tools` repository were released into the `indigo` distro by running `/usr/bin/bloom-release gazebo_tools --track indigo --rosdistro indigo` on `Wed, 08 Jun 2016 11:38:33 -0000`
